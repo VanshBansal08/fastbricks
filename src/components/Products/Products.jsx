@@ -5,6 +5,8 @@ import './Products.css'
 import Tiles from '../Tiles/Tiles'
 import Door from '../Door/Door'
 import Wallpaper from '../Wallpaper/Wallpaper'
+import Brand from '../BrandedProducts/Brand'
+import Glass from '../Glasses/Glass'
 const Products = () => {
   return (
     <div className='product'>
@@ -13,6 +15,8 @@ const Products = () => {
         <Tiles/>
         <Door/>
         <Wallpaper/>
+        <Brand/>
+        <Glass/>
     </div>
   )
 }
